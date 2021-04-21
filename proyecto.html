@@ -49,6 +49,59 @@
         </div>
       </div>
 
+      <section>
+        <div class="row py-5">
+          <div class="col">
+            <h3 class="text-center">Registrate</h3>
+          </div>
+          </div>
+      </section>
+
+<section> 
+      <form id="form1" method="post" action="enviar.php">
+            <label for="nombre">Introduzca su nombre:</label>
+            <input type="text" id="nombre" name="nombre" required ><br>
+            <label for="correo">Introduzca su correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required ><br>
+            <label for="nivel">Seleccione el nivel a cursar:</label>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+              <option selected>Clik aqui</option>
+              <option value="1">Nivel básico</option>
+              <option value="2">Nivel intermedio</option>
+              <option value="3">Nivel avanzado</option>
+            </select>
+
+            <label for="fecharegistro">Introduzca su fecha de registro :</label>
+            <input type="date" id="fecharegistro" name="fecharegistro" required ><br>
+
+            <input type="submit" value="Enviar datos">
+        </form>
+
+      </section>
+      <section>
+        <div class="row py-5">
+          <div class="col">
+            <h3 class="text-center">Seleccione su modo de pago</h3>
+          </div>
+          </div>
+      </section>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Efectivo
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Transferencia electronica
+        </label>
+        <input type="submit" value="Enviar datos">
+      </div>
+
+
+
       <div id="apartado">
         <div class="container-md p5 ">
           <div class="row pt-5">
@@ -114,6 +167,50 @@
               </div>
             </div>
 
+<section>
+  <div class="container">
+  <table class="table">
+    <thead class="table-light">
+      <tr>
+        <th>Animales mixe</th>
+        <th>Traduccion</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Joon</td>
+        <td>Pájaro</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Këy</td>
+        <td>Conejo</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Ujts jatysu'</td>
+        <td>Venado</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Käj</td>
+        <td>Leon</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Uk</td>
+        <td>Perro</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</section>
+
+
           </section>
 
           <div class="row py-5">
@@ -125,7 +222,7 @@
           <div class="row justify-content-center">
             <div class="col-2"><a href="#">Mixe Alto</a></div>
             <div class="col-2"><a href="#">Tlahuitoltepec</a></div>
-            <div class="col-2"><a href="#">Correo</a></div>
+            <div class="col-2"><a href="#">correo</a></div>
             <div class="col-1"><a href="#">Ayuda</a></div>
           </div>
         </div>
@@ -135,6 +232,11 @@
       <div id="separador">
         <div class="content bg-success"></div>
 
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Comentarios</label>
       </div>
 
       <script src="Externo/Bootstrap/js/popper.min.js"></script>
